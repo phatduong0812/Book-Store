@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form action="loginAction" method="POST">
+            Username: <input type="text" name="txtUsername" value="" /></br>
+            Password: <input type="password" name="txtPassword" value="" /></br>
+            Remember me <input type="checkbox" name="checkRemember" value="" /></br>
+            <input type="submit" value="Login" name="btnAction" />
+            <input type="reset" value="Reset" />
+        </form>
+        
+        <a href="firstRegisterPage">Click here to create new account</a></br>
+        <a href="https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/userinfo.profile&redirect_uri=http://localhost:8084/ProjectFilterMVC2Template/loginGoogle&response_type=code&include_granted_scopes=true&client_id=534066569161-qpsi3f3u020vi5r297tlobemhgnbve4k.apps.googleusercontent.com&approval_prompt=force">Login with Google</a>
+        <a href="storeView">Buy Books</a></br>
+    </body>
+</html>
